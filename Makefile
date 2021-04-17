@@ -9,3 +9,6 @@ up:
 
 down:
 	@docker-compose down
+
+gen:
+	@go generate ./ent
